@@ -26,8 +26,8 @@ Optional dependencies:
 Images are based on Debian or Alpine (smaller size, with same features):
 
 - Debian:
-  - `debian` (~ 353 MB)
-  - `debian-slim`: slim version (~ 117 MB)
+  - `debian` (~ 327 MB)
+  - `debian-slim`: slim version (~ 125 MB)
 - Alpine:
   - `alpine` (~ 213 MB)
   - `alpine-slim`: slim version (~ 39 MB)
