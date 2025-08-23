@@ -10,7 +10,7 @@
 
 # ==== base for all stages ====
 
-FROM alpine:3.19 AS base
+FROM alpine:3.22 AS base
 LABEL stage=base
 
 LABEL maintainer="Sébastien Helleu <flashcode@flashtux.org>"
@@ -73,8 +73,8 @@ RUN set -eux ; \
             libxml2-dev \
             lua5.4-dev \
             perl-dev \
-            php82-dev \
-            php82-embed \
+            php83-dev \
+            php83-embed \
             python3-dev \
             ruby-dev \
             tcl-dev \
@@ -146,8 +146,8 @@ RUN set -eux ; \
             guile-libs \
             lua5.4-libs \
             perl \
-            php82 \
-            php82-embed \
+            php83 \
+            php83-embed \
             python3 \
             ruby-libs \
             tcl \
